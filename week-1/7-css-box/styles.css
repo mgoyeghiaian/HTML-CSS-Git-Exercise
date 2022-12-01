@@ -2,10 +2,9 @@
   border: 1px solid #4491db;
   border-radius: 4px;
   background: #fff;
-  width: 55%;
-  height: 55%;
 }
 
 .country {
-  border: 5px solid rgb(255, 255, 255);
+  padding: 10px;
+  border: 2px solid rgba(189, 184, 184, 0.616);
 }
