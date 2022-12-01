@@ -38,6 +38,61 @@
           <h2 class="checkout__title">Checkout</h2>
           <form method="GET" id="checkout-form" class="checkout__form">
             <!-- Add the form fields here -->
+            <fieldset>
+              <legend>Billing Address</legend>
+              <div>
+                <label for="bill-address1">Address Line 1</label>
+                <input id="bill-address1" type="text" name="bill-address1" />
+              </div>
+              <div>
+                <p>
+                  <label for="bill-address2">Address Line 2</label>
+                  <input id="bill-address2" type="text" name="bill-address2" />
+                </p>
+              </div>
+
+              <div>
+                <p>
+                  <label for="bill-postcode">Postcode</label>
+                  <input id="bill-postcode" type="text" name="bill-postcode" />
+                </p>
+              </div>
+
+              <div>
+                <p>
+                  <label for="bill-City">City</label>
+                  <input id="bill-City" type="text" name="bill-City" />
+                </p>
+              </div>
+            </fieldset>
+
+            <fieldset>
+              <legend>Delivery Address</legend>
+              <div>
+                <label for="del-address1">Address Line 1</label>
+                <input id="del-address1" type="text" name="del-address1" />
+              </div>
+              <div>
+                <p>
+                  <label for="del-address2d">Address Line 2</label>
+                  <input id="del-address2d" type="text" name="del-address2" />
+                </p>
+              </div>
+
+              <div>
+                <p>
+                  <label for="del-postcode">Postcode</label>
+                  <input id="del-postcode" type="text" name="del-postcode" />
+                </p>
+              </div>
+
+              <div>
+                <p>
+                  <label for="del-City">City</label>
+                  <input id="del-City" type="text" name="del-City" />
+                </p>
+              </div>
+            </fieldset>
 
             <button type="submit">Complete Purchase</button>
           </form>
