@@ -3,3 +3,36 @@
 }
 
 /* Add your own CSS code below */
+.countries {
+  width: 60%;
+}
+
+.countries--first li:nth-child(3) {
+  align-self: flex-end;
+}
+
+.countries--second {
+  align-items: center;
+}
+
+.countries--second li:nth-child(3) {
+  align-self: flex-end;
+}
+
+.countries--third {
+  align-items: flex-end;
+}
+
+.countries--third li:first-child,
+.countries--third li:last-child {
+  align-self: flex-start;
+}
+
+.countries--fourth {
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.countries--fourth li:last-child {
+  align-self: center;
+}
