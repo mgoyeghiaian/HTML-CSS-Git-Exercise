@@ -7,3 +7,34 @@
 }
 
 /* Add your own CSS code below */
+
+.countries--first {
+  flex-direction: row;
+  padding-left: 6%;
+  width: fit-content;
+  font-weight: bold;
+}
+
+.countries--second {
+  display: flex;
+  flex-direction: row;
+  width: 60%;
+  justify-content: space-around;
+  font-weight: bold;
+}
+
+.countries--third {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  justify-content: end;
+  font-weight: bold;
+}
+
+.countries--fourth {
+  display: flex;
+  flex-direction: column-reverse;
+  width: 60%;
+  justify-content: space-around;
+  font-weight: bold;
+}
