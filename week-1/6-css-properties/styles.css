@@ -16,3 +16,6 @@
 .message__content {
   line-height: 3.3em;
 }
+.message--unread {
+  border-left: 6px solid blue;
+}
